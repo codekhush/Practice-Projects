@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calci_container">
+            <div class="input_container">
+                <input type="text" id="input_display" placeholder="0">
+            </div>
+            <center><div class="button_container">
+            <div class="row">
+                <button class="btn" onclick="deletingWhole()">AC</button>
+                <button class="btn" onclick="deletingLastDigit()">DEL</button>
+                <button class="btn" onclick=" percentFunction()">%</button>
+                <button class="btn" onclick="divideFucntion()">/</button>
+            </div>
+            <div class="row">
+                <button class="btn" onclick="buttonSeven()">7</button>
+                <button class="btn" onclick="eightFunction()">8</button>
+                <button class="btn" onclick="nineFunction()">9</button>
+                <button class="btn" onclick="multipleFunction()">*</button>
+            </div>
+            <div class="row">
+                <button class="btn" onclick="fourFunction()">4</button>
+                <button class="btn" onclick="fiveFunction()">5</button>
+                <button class="btn" onclick="sixFunction()">6</button>
+                <button class="btn" onclick="minusFunction()">-</button>
+            </div>
+            <div class="row">
+                <button class="btn" onclick="oneFunction()">1</button>
+                <button class="btn" onclick="twoFunction()">2</button>
+                <button class="btn" onclick="threeFunction()">3</button>
+                <button class="btn" onclick="addFunction()">+</button>
+            </div>
+            <div class="row">
+                <button class="btn" onclick="jheroFunction()">00</button>
+                <button class="btn" onclick="zeroFunction()">0</button>
+                <button class="btn" onclick="dotFunction()">.</button>
+                <button class="btn" onclick="resultFunction()">=</button>
+            </div>
+
+            </div></center>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
